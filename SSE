@@ -20,7 +20,7 @@ ECHO Initiating Status Check of "%BlagoVersion%"
 
 TASKLIST | FINDSTR /I "%BlagoVersion%" >NUL
 ECHO.
-IF ERRORLEVEL 1 (GOTO :InitiateMiner) ELSE (ECHO Details of Last check)
+IF ERRORLEVEL 1 (GOTO :InitiateMiner) ELSE (ECHO Details of Last Status)
 
 
 :: Report of current Status of Blago Miner
